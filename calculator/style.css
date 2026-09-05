@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.numbers {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.numbers a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.numbers a:hover {
+    background-color: #ddd;
+}
+
+.operators {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.operators button,
+.clear {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+
+    background-color: #333;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.operators button:hover,
+.clear:hover {
+    background-color: #555;
+}
+
+.control_buttons {
+    margin-top: 10px;
+}
+
