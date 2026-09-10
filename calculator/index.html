@@ -7,24 +7,25 @@
 </head>
 
 <body>
+    <div class="result">Click on operators</div>
     <div class="numbers " >
-        <a class="first_numbers">1</a>
-        <a class="secound_numbers">2</a>
+        <input class="first_numbers" type="number"> 
+        <input class="secound_numbers" type="number" > 
 
     </div>
     <div class="operators">
-        <button class="ADD">ADD</button>
-        <button class="SUB">SUB</button>
-        <button class="DIV">DIV</button>
-        <button class="MUL">MUL</button>
+        <button class="ADD" onclick="add()">ADD</button>
+        <button class="SUB" onclick="sub()">SUB</button>
+        <button class="DIV" onclick="div()">DIV</button>
+        <button class="MUL" onclick="mul()">MUL</button>
         
 
     </div>
 
 
 
-    <div class="control_buttons">
-        <button class="clear">Clear</button>
+    <div class="operators">
+        <button class="clear()" onclick="clearall()">Clear</button>
     </div>
 
     <script src="Script.js"></script>
