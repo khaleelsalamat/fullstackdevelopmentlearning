@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title> NBA score board </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="intro">
+        the socre is 
+        </div>
+        <div class="the_score">
+            <number class="knicksNUm">0</number>
+            <number class="spursNum">0</number>
+        </div>
+        <div class="teams_names">
+            <a>knicks </a>
+            <a>spurs </a>
+            
+
+        </div>
+
+
+        <div class="operators_team1">
+        <button onclick="add(document.querySelector('.knicksNUm'))">+1</button>
+        <button onclick="sub(document.querySelector('.knicksNUm'))">-1</button>
+        <button onclick="clearnumber(document.querySelector('.knicksNUm'))">clear</button>
+        </div>
+
+        <div class="operators_team2">
+        <button onclick="add(document.querySelector('.spursNum'))">+1</button>
+        <button onclick="sub(document.querySelector('.spursNum'))">-1</button>
+        <button onclick="clearnumber(document.querySelector('.spursNum'))">clear</button>
+        </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
