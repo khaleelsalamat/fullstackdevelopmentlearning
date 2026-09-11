@@ -1,0 +1,18 @@
+*{
+    padding: 14px;
+    background-color: black;
+    backgound-size: cover;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.blackjack {
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod; ;
+}
