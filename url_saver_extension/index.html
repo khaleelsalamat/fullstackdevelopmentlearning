@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>URL Saver Extension</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>URL Saver Extension</h1>
+            <input type="text" id="urlInput" placeholder="Enter URL" />
+            <p>Click the button to save the current URL:</p>
+            <button id="saveButton" onclick="saveURL()">Save URL</button>
+            <button id="deleteButton" onclick="deleteURL()">Delete URL</button>
+            <ul id="urlList">
+                <li id="currentURL"></li>
+            </ul>
+        </div>  
+        <script src="script.js"></script>
+    </body>
+</html>
