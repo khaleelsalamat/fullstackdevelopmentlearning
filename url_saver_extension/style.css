@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 300px;
 }
 
 
@@ -88,12 +89,12 @@ button {
 }
 
 
-#deleteButton {
+.deleteButton {
     background: #e74c3c;
     margin-left: 8px;
 }
 
-#deleteButton:hover {
+.deleteButton:hover {
     background: #c0392b;
     transform: translateY(-2px);
 }
@@ -103,16 +104,21 @@ button:active {
     transform: translateY(0);
 }
 
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 10px;
+}
+li a{
+    color: #667eea;
+}
+#saveTab {
+    background-color: #3b82f6;
+}
 
-#status {
-    margin-top: 25px;
-    padding: 12px;
-
-    background: #f3f4f6;
-    border-radius: 8px;
-
-    color: #333;
-    font-weight: bold;
-
-    min-height: 20px;
+#saveTab:hover {
+    background-color: #2563eb;
 }
