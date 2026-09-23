@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main-page" class="view">
+        <p>your favouriate stock predictor app where your future is guaranteed</p>
+        </div>
+        <div>
+        <input id="user_input" placeholder="Write the stock ticker down" autocomplete="off" >
+        <button id="reportbtn">Generate a report </button>
+        </div>
+        <div class="ending">
+        <p>this app is not responsible for your action if you lost you are on your own but if you win i don't mind some money  </p>
+        </div>
+
+        <div id="loading-page" class="view hidden">
+            <div class="spinner"></div>
+            <p class="loading-text">Analyzing stock data with Gemini AI...</p>
+        </div>
+        <div id="report-page" class="view hidden">
+            <h2>Stock Analysis Report</h2>
+            <div id="reportdata" class="report-box"></div>
+            <button id="backbtn" type="button">Analyze Another Stock</button>
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
